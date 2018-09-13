@@ -1,11 +1,11 @@
 defmodule ElixirVocab.Number do
   @moduledoc ~S"""
-  #: Arithmetic, Comparisons
+  Arithmetic (3), Comparisons (6)
 
-  ## 3: Arithmetic
+  ### Arithmetic (3)
     * `Kernel`: `+/2`, `-/2`, `*/2`, `abs/1`
 
-  ## Examples
+  ### Examples
       iex> 0 + 1
       1
 
@@ -18,10 +18,10 @@ defmodule ElixirVocab.Number do
       iex> abs(-1.0)
       1.0
 
-  ## 6: Comparisons
+  ### Comparisons (6)
     * `Kernel`: `</2`, `<=/2`, `>/2`, `>=/2`, `max/2`, `min/2`
 
-  ## Examples
+  ### Examples
       iex> 0 < 1.0
       true
 

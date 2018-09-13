@@ -6,7 +6,7 @@ Elixir has a bunch of modules. And most modules have a bunch of functions.
 
 The purpose of this project is twofold: to audit of the existing `Kernel` for maintainers, and to provide better-organized documentation for newcomers.
 
-We will work our way up from the simplest to the most complex COMMONLY USED data structures in Elixir. We will focus ONLY on functions related to these data structures.
+We will work our way up from the simplest to the most complex COMMONLY USED data structures in Elixir. We will focus ONLY on functions related to these data structures (and ignore the redundant ones).
 
 1. `Atom`
 * `Integer` + `Float`
