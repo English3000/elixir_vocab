@@ -1,8 +1,28 @@
 defmodule ElixirVocab.Float do
   @moduledoc ~S"""
-  Arithmetic (7), Conversions (1), Data (1)
+  Conversions (1) + Data (2) + Operations (7)
 
-  ### Arithmetic (7)
+  ### Conversions (1)
+    * `Float`: `parse/2`
+
+  ### Examples
+      iex> Float.parse("123abc") # or String.to_float/1
+      {123.0, "abc"}
+
+
+  ### Data (2)
+    * `Kernel`: `is_float/1`
+    * `Float`: `ratio/1`
+
+  ### Examples
+      iex> Float.ratio(-1.5)
+      {-3, 2}
+
+      iex> is_float(1)
+      false
+
+
+  ### Operations (7)
     * `Kernel`: `//2`, `round/1`, `trunc/1`
     * `Float`: `ceil/2`, `floor/2`, `round/2`
       * accept 2nd arg for which decimal to round to
@@ -33,19 +53,5 @@ defmodule ElixirVocab.Float do
 
       iex> Float.ceil(5.84) # rounds to 1's by default
       6.0
-
-  ### Conversions (1)
-    * `Float`: `parse/2`
-
-  ### Examples
-      iex> Float.parse("123abc")
-      {123.0, "abc"}
-
-  ### Data (1)
-    * `Float`: `ratio/1`
-
-  ### Examples
-      iex> Float.ratio(-1.5)
-      {-3, 2}
   """
 end
