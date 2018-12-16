@@ -26,3 +26,6 @@ mix deps.get
 mix docs
 open doc/index.html
 ```
+
+### Note to Self
+* [How to modify ExDoc](https://github.com/elixir-lang/ex_doc/pull/879/files#diff-9d1b7843b78234c6d86a56eda9b8c6c0)

@@ -1,4 +1,12 @@
 defmodule ElixirVocab.String do
+  @doc category: :converter
+  def graphemes, do: nil
+
+  @doc category: :converter
+  def split, do: nil
+
+  @doc category: :data, guard: true
+  def first, do: nil
   @moduledoc ~S"""
   Conversions (4) + Data + Operations
 

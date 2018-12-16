@@ -3,7 +3,7 @@ defmodule ElixirVocab.Float do
   Conversions (1) + Data (2) + Operations (7)
 
   ### Conversions (1)
-    * `Float`: `parse/2`
+    * `Float`: `parse/1`
 
   ### Examples
       iex> Float.parse("123abc") # or String.to_float/1
